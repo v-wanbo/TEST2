@@ -10,8 +10,7 @@ import demoSpringboot.service.UserService;
 
 @RestController
 @RequestMapping({ "/user" })
-public class FirstController {
-	// 111111
+public class FirstController { 
 	@Autowired
 	private UserService userService;
 
