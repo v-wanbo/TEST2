@@ -14,6 +14,8 @@ public class FirstController {
 	@Autowired
 	private UserService userService;
 
+	/*  14:04  */
+	
 	@RequestMapping({ "/get" })
 	public Object GetUserInfo() {
 		return this.userService.GetUserInfo();
